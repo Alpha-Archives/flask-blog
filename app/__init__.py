@@ -10,4 +10,4 @@ app.config.from_object('app.configuration.Config')
 mysql = MySQL(app)
 
 # Import routing, models and Start the App
-from app import views,
+from app import views
